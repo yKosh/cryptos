@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <a class="go-up" href="#header"></a>
+    <form class="login-form modal-form mfp-hide" id="login" action="#">
+        <input class="modal-form__input" type="text" placeholder="Логин">
+        <input class="modal-form__input" type="text" placeholder="Пароль">
+        <input class="modal-form__input" type="text" placeholder="Email">
+        <button class="modal-form__btn">Войти</button>
+    </form>
+    <form class="register-form modal-form mfp-hide" id="register" action="#">
+        <input class="modal-form__input" type="text" placeholder="Логин">
+        <input class="modal-form__input" type="text" placeholder="Пароль">
+        <input class="modal-form__input" type="text" placeholder="Email">
+        <button class="modal-form__btn">Зарегистрироваться</button>
+        <div class="modal-form__link-wrapper">
+            <a class="modal-form__link" href="#">
+                Политика конфиденциальности
+            </a>
+        </div>
+    </form>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="images/logo.svg" alt="logo">
+                    </a>
+                    <div class="header__buttons">
+                        <a class="header__login" href="#login">
+                            Войти
+                        </a>
+                        <a class="header__register" href="#register">
+                            Регистрация
+                        </a>
+                    </div>
+                </div>
+                <div class="header__content">
+                    <h1 class="header__title">
+                        Лучший способ майнинга
+                    </h1>
+                    <p class="header__text">
+                        Cryptos - это инструмент для покупки и продажи биткоина, этериума и различных цифровых активов в
+                        Бутане. Регистрируйтесь и занимайтесь торговлей на лучших условиях.
+                    </p>
+                    <button class="header__btn">
+                        НАЧАТЬ
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="advantages">
+            <ul class="advantages__list">
+                <li class="advantages__item">
+                    <div class="advantages__img-wrapper">
+                        <img src="images/icon-1.svg" alt="icon">
+                    </div>
+                    <h6 class="advantages__title">
+                        Безопасность
+                    </h6>
+                    <p class="advantages__text">
+                        Ваш аккаунт защищен мультифакторным методом, который комбинирует аутентификацию через email, SMS
+                        и Google аутентификатор.
+                    </p>
+                </li>
+                <li class="advantages__item">
+                    <div class="advantages__img-wrapper">
+                        <img class="advantages__img" src="images/icon-2.svg" alt="icon">
+                    </div>
+                    <h6 class="advantages__title">
+                        Простота
+                    </h6>
+                    <p class="advantages__text">
+                        Продаете ли вы или покупаете, инвестируете или трейдите - вам понадобится один аккаунт для всех
+                        транзакционных операций.
+                    </p>
+                </li>
+                <li class="advantages__item">
+                    <div class="advantages__img-wrapper">
+                        <img src="images/icon-3.svg" alt="icon">
+                    </div>
+                    <h6 class="advantages__title">
+                        Скорость
+                    </h6>
+                    <p class="advantages__text">
+                        Депозит в коинах мгновенно обрабатывается, а сами коины выводятся в течении дня.
+                    </p>
+                </li>
+                <li class="advantages__item">
+                    <div class="advantages__img-wrapper">
+                        <img src="images/icon-4.svg" alt="icon">
+                    </div>
+                    <h6 class="advantages__title">
+                        Надёжность
+                    </h6>
+                    <p class="advantages__text">
+                        Современная платформа с детально проработанным регулированием в соответсвтии с мировыми
+                        стандартами.
+                    </p>
+                </li>
+                <li class="advantages__item">
+                    <div class="advantages__img-wrapper">
+                        <img src="images/icon-5.svg" alt="icon">
+                    </div>
+                    <h6 class="advantages__title">
+                        Точность
+                    </h6>
+                    <p class="advantages__text">
+                        Маленький разброс без скрытых тейков на ведущих токенизированных рынках.
+                    </p>
+                </li>
+                <li class="advantages__item">
+                    <div class="advantages__img-wrapper">
+                        <img src="images/icon-6.svg" alt="icon">
+                    </div>
+                    <h6 class="advantages__title">
+                        Комфорт
+                    </h6>
+                    <p class="advantages__text">
+                        Удобные графики со множеством технических индикаторов без перегрузки излишним интерфейсом.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials__inner">
+                <h2 class="testimonials__title">
+                    Наши <br>
+                    пользователи
+                </h2>
+                <div class="testimonials__slider">
+                    <div class="testimonials__item">
+                        <div class="testimonials__img">
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                        </div>
+                        <p class="testimonials__text">
+                            "Замечательный обмен, а служба поддержки выше всяких похвал! Ребята помогли мне с проблемой,
+                            которая возникла из-за неполадок с моим ПК - я чуть не потерял все что было!"
+                        </p>
+                        <span class="testimonials__name">
+                            Тимур Котов
+                        </span>
+                    </div>
+                    <div class="testimonials__item">
+                        <div class="testimonials__img">
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                        </div>
+                        <p class="testimonials__text">
+                            "Великолепная платформа. Отличная поддержка. Все очень удобно и быстро!"
+                        </p>
+                        <span class="testimonials__name">
+                            Анюта Штрек
+                        </span>
+                    </div>
+                    <div class="testimonials__item">
+                        <div class="testimonials__img">
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                        </div>
+                        <p class="testimonials__text">
+                            "Пользовался больше года и ниразу не расстроился. Наоборот! Поддержка всегда на связи и
+                            всегда
+                            поможет. Лучший сервис которым я пользовался."
+                        </p>
+                        <span class="testimonials__name">
+                            Натан Коба
+                        </span>
+                    </div>
+                    <div class="testimonials__item">
+                        <div class="testimonials__img">
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                        </div>
+                        <p class="testimonials__text">
+                            "Пользовался больше года и ниразу не расстроился. Наоборот! Поддержка всегда на связи и
+                            всегда
+                            поможет. Лучший сервис которым я пользовался."
+                        </p>
+                        <span class="testimonials__name">
+                            Натан Коба
+                        </span>
+                    </div>
+                    <div class="testimonials__item">
+                        <div class="testimonials__img">
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                            <svg width="165" height="413" viewBox="0 0 165 413" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 0H165V195.632L0 413V0Z" fill="#1F337A" />
+                            </svg>
+                        </div>
+                        <p class="testimonials__text">
+                            "Пользовался больше года и ниразу не расстроился. Наоборот! Поддержка всегда на связи и
+                            всегда
+                            поможет. Лучший сервис которым я пользовался."
+                        </p>
+                        <span class="testimonials__name">
+                            Натан Коба
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="packages">
+        <div class="container">
+            <h2 class="packages__title">
+                Каждый пакет содержит пробный режим на семь дней
+            </h2>
+            <div class="packages__tabs">
+                <a class="packages__tabs-item packages__tabs-item--active" href="#monthly">
+                    ЕЖЕМЕСЯЧНО
+                </a>
+                <a class="packages__tabs-item" href="#yearly">
+                    ЕЖЕГОДНО - 2 МЕС. БЕСПЛАТНО
+                </a>
+            </div>
+            <div class="packages__content">
+                <div class="packages__content-item packages__content-item--active" id="monthly">
+                    <div class="packages__item">
+                        <h6 class="packages__item-title">
+                            Старт
+                        </h6>
+                        <div class="packages__price">
+                            750₽
+                        </div>
+                        <div class="packages__item-type">
+                            Ежемесячно
+                        </div>
+                        <ul class="packages__advantages">
+                            <li class="packages__advantage">
+                                1 Пиксель ID*
+                            </li>
+                            <li class="packages__advantage">
+                                URL
+                            </li>
+                            <li class="packages__advantage">
+                                До 200 коротких <br> линков / месяц
+                            </li>
+                        </ul>
+                        <button class="packages__btn">
+                            НАЧАТЬ
+                        </button>
+                    </div>
+                    <div class="packages__item">
+                        <h6 class="packages__item-title">
+                            Профи
+                        </h6>
+                        <div class="packages__price">
+                            2 175₽
+                        </div>
+                        <div class="packages__item-type">
+                            Ежемесячно
+                        </div>
+                        <ul class="packages__advantages">
+                            <li class="packages__advantage">
+                                5 Пиксель ID*
+                            </li>
+                            <li class="packages__advantage">
+                                1 Пользовательский URL
+                            </li>
+                            <li class="packages__advantage">
+                                До 1000 коротких <br> линков / месяц
+                            </li>
+                            <li class="packages__advantage">
+                                5 Участников
+                            </li>
+                        </ul>
+                        <button class="packages__btn">
+                            НАЧАТЬ
+                        </button>
+                    </div>
+                    <div class="packages__item">
+                        <h6 class="packages__item-title">
+                            Бизнес
+                        </h6>
+                        <div class="packages__price">
+                            3 675₽
+                        </div>
+                        <div class="packages__item-type">
+                            Ежемесячно
+                        </div>
+                        <ul class="packages__advantages">
+                            <li class="packages__advantage">
+                                Неограниченный Пиксель ID
+                            </li>
+                            <li class="packages__advantage">
+                                Неограниченные Пользовательские URL
+                            </li>
+                            <li class="packages__advantage">
+                                Неограниченное кол-во <br> линков / месяц
+                            </li>
+                            <li class="packages__advantage">
+                                Неограниченное кол-во участников
+                            </li>
+                            <li class="packages__advantage">
+                            </li>
+                        </ul>
+                        <button class="packages__btn">
+                            НАЧАТЬ
+                        </button>
+                    </div>
+                </div>
+                <div class="packages__content-item" id="yearly">
+                    <div class="packages__item">
+                        <h6 class="packages__item-title">
+                            Старт
+                        </h6>
+                        <div class="packages__price">
+                            7 500₽
+                        </div>
+                        <div class="packages__item-type">
+                            Ежегодно
+                        </div>
+                        <ul class="packages__advantages">
+                            <li class="packages__advantage">
+                                1 Пиксель ID*
+                            </li>
+                            <li class="packages__advantage">
+                                URL
+                            </li>
+                            <li class="packages__advantage">
+                                До 4 800 коротких <br> линков / год
+                            </li>
+                        </ul>
+                        <button class="packages__btn">
+                            НАЧАТЬ
+                        </button>
+                    </div>
+                    <div class="packages__item">
+                        <h6 class="packages__item-title">
+                            Профи
+                        </h6>
+                        <div class="packages__price">
+                            21 750₽
+                        </div>
+                        <div class="packages__item-type">
+                            Ежегодно
+                        </div>
+                        <ul class="packages__advantages">
+                            <li class="packages__advantage">
+                                5 Пиксель ID*
+                            </li>
+                            <li class="packages__advantage">
+                                1 Пользовательский URL
+                            </li>
+                            <li class="packages__advantage">
+                                До 12000 коротких <br> линков / год
+                            </li>
+                            <li class="packages__advantage">
+                                5 Участников
+                            </li>
+                        </ul>
+                        <button class="packages__btn">
+                            НАЧАТЬ
+                        </button>
+                    </div>
+                    <div class="packages__item">
+                        <h6 class="packages__item-title">
+                            Бизнес
+                        </h6>
+                        <div class="packages__price">
+                            36 750₽
+                        </div>
+                        <div class="packages__item-type">
+                            Ежегодно
+                        </div>
+                        <ul class="packages__advantages">
+                            <li class="packages__advantage">
+                                Неограниченный Пиксель ID
+                            </li>
+                            <li class="packages__advantage">
+                                Неограниченные Пользовательские URL
+                            </li>
+                            <li class="packages__advantage">
+                                Неограниченное кол-во <br> линков / месяц
+                            </li>
+                            <li class="packages__advantage">
+                                Неограниченное кол-во участников
+                            </li>
+                            <li class="packages__advantage">
+                            </li>
+                        </ul>
+                        <button class="packages__btn">
+                            НАЧАТЬ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <div class="partners">
+        <h3 class="partners__title">
+            Работайте с самыми популярными активами
+        </h3>
+        <div class="partners__slider">
+            <div class="partners__item"><img class="partners__img" src="images/partners/1.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/2.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/3.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/4.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/5.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/6.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/7.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/8.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/9.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/10.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/11.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/12.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/13.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/14.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/15.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/16.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/17.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/18.jpg" alt="partner image">
+            </div>
+            <div class="partners__item"><img class="partners__img" src="images/partners/19.jpg" alt="partner image">
+            </div>
+        </div>
+    </div>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__inner">
+                <div class="contacts__text-box">
+                    <h2 class="contacts__title">
+                        Свяжитесь с нами
+                    </h2>
+                    <p class="contacts__text">
+                        Если у вас остались вопросы, наши специалисты из службы поддержки помогут вам разобратся с
+                        трудностями.
+                    </p>
+                </div>
+                <form class="contacts__form" action="#">
+                    <label class="contacts__email-label"></label>
+                    <input class="contacts__form-input" type="text" placeholder="Email">
+
+                    <label class="contacts__name-label"></label>
+                    <input class="contacts__form-input" type="text" placeholder="Имя">
+
+                    <label class="contacts__message-label"></label>
+                    <textarea class="contacts__form-textarea" placeholder="Ваше сообщение"></textarea>
+
+                    <button class="contacts__form-btn" type="submit">
+                        отправить
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="contacts__img">
+            <img src="images/contacts-img.jpg" alt="image">
+            <img src="images/contacts-img-2.jpg" alt="image">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <a class="logo" href="#">
+                <img class="logo__img" src="images/logo.svg" alt="logo">
+            </a>
+            <div class="footer__copy">
+                © 2021 cryptos All Right Reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
